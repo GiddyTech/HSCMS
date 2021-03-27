@@ -1,0 +1,9 @@
+{
+  "name": "Health Center Management System",
+  "short_name": "HCMS",
+  "start_url": "index.html",
+  "display": "standalone",
+  "orientation":"portrait",
+  "theme_color": "#2F5BE7",
+  "description": "Do Your Health Centre Registration, upload necessary documents and communicate with a health agent, seamlessly with the help of this HCMS" 
+}
