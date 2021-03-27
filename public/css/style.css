@@ -1,0 +1,99 @@
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff; }
+
+#navtext:hover {
+  color:#212529;
+}
+
+/*--- navigation bar ---*/
+.navbar {
+  background: #ffffff; 
+}
+.navbar-collapse {
+    justify-content: flex-end;
+    background: #ffffff;
+    padding-bottom: 15px;
+    -webkit-transition: all 0.4s cubic-bezier(0.17, 0.25, 0.56, 1.03);
+    transition: all 0.4s cubic-bezier(0.17, 0.25, 0.56, 1.03);
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+.nav-link,
+.navbar-brand {
+    color: #000000;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+    background: #ffffff;
+    padding-bottom: 15px;
+    -webkit-transition: all 0.4s cubic-bezier(0.17, 0.25, 0.56, 1.03);
+    transition: all 0.4s cubic-bezier(0.17, 0.25, 0.56, 1.03);
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+.nav-link,
+.navbar-brand {
+    color: #000000;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.dropdown-item:hover {
+        background-color: #F6490D !important;
+        color: black !important;  
+}
+
+
+@media (min-width: 320px) {
+
+    .navbar {
+        background: #fff;
+    }
+    .navbar-collapse {
+        justify-content: flex-end;
+        background: #ffffff;
+        padding-bottom: 15px;
+        -webkit-transition: all 0.4s cubic-bezier(0.17, 0.25, 0.56, 1.03);
+        transition: all 0.4s cubic-bezier(0.17, 0.25, 0.56, 1.03);
+        border-radius: 5px;
+        margin-top: 5px;
+      }
+    .nav-link,
+    .navbar-brand {
+        color: #000000;
+        cursor: pointer;
+    }
+    .nav-link {
+        margin-right: 1em !important;
+        color: white;
+    }
+    .nav-link:hover {
+        color:white;
+        text-decoration: underline #343a40
+        ;
+    }
+    .dropdown-item:hover {
+            background-color: #F6490D !important;
+            color: #ffffff !important;  
+    }
+    }  
